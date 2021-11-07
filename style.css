@@ -1,0 +1,52 @@
+
+body {
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); 
+    text-align: center;
+    font-family: fantasy;
+}
+  
+h1 {
+    font-variant: small-caps;
+    animation: tanimate 5s infinite;
+  }
+  
+  @keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+  }
+  #Inteleon {
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+  h2{
+    font-variant: small-caps;
+    animation: tanimate 5s infinite;
+  }
+  span{
+    animation: tanimate 5s infinite;
+  }
+  #GigantimaxInteleon{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    animation: mymove2 5s infinite;
+  }
+  p{
+    animation: tanimate 5s infinite;
+  }
+  @keyframes mymove2 {
+    from {left: -400px;}
+    to {right: -400px;}
+  }
+  @keyframes tanimate {
+    0%{
+      font-family: fantasy;
+    }
+    50%{
+      font-family: cursive;
+    }
+    100%{
+      font-family: fantasy;
+    }
+  }
